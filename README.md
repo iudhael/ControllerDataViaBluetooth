@@ -5,7 +5,7 @@ Pour connecter une manette PS4 à un ordinateur Linux via Bluetooth et recevoir 
 
 1.   Installez les dépendances nécessaires avec les commandes :
    ```bash
-   sudo apt-get install python-dev python-pip gcc```
+   sudo apt-get install python-dev python-pip gcc ```
 
 2.   Installez la bibliothèque approxeng.input, qui permet de lire les entrées de la manette :
    ``bash
