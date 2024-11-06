@@ -9,7 +9,7 @@ Pour connecter une manette PS4 à un ordinateur Linux via Bluetooth et recevoir 
    ```
 
 2.   Installez la bibliothèque approxeng.input, qui permet de lire les entrées de la manette :
-   ``bash
+   ```bash
    pip install approxeng.input
    ```
 
