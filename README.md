@@ -1,6 +1,7 @@
 # ControllerDataViaBluetooth
 Connexion d’une manette (cas d'une manette PS4) à un ordinateur via Bluetooth, puis réception des valeurs des boutons et des sticks analogiques sur l'ordinateur.
 
+
 Pour connecter une manette PS4 à un ordinateur Linux via Bluetooth et recevoir les valeurs des boutons et des sticks analogiques, suivez les étapes suivantes :
 
 1.   Installez les dépendances nécessaires avec les commandes :
@@ -45,7 +46,7 @@ Cela vous permettra de bouger les axes et appuyer sur les boutons pour vérifier
 *  Pour récupérer les valeurs des boutons et axes, lancez le fichier controller.py. Ce fichier vous permettra de récupérer et d'afficher en temps réel les valeurs des boutons et des axes de la manette.
 Vous pouvez consulter ces détails [ici](https://approxeng.github.io/approxeng.input/simpleusage.html)
 
-
+Je me suis basé [sur](https://approxeng.github.io/approxeng.input/index.html)
 
 
 
