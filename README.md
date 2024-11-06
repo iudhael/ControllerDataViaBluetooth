@@ -11,6 +11,7 @@ Pour connecter une manette PS4 à un ordinateur Linux via Bluetooth et recevoir 
 2.   Installez la bibliothèque approxeng.input, qui permet de lire les entrées de la manette :
    ``bash
    pip install approxeng.input
+   ```
 
    Cela configurera votre système pour recevoir les valeurs de la manette PS4 sur un système Linux.
 
@@ -21,7 +22,7 @@ Pour connecter une manette PS4 à un ordinateur Linux via Bluetooth et recevoir 
    sudo apt-get install bluetooth libbluetooth3 libusb-dev
    sudo systemctl enable bluetooth.service
    sudo usermod -G bluetooth -a username
-
+   ```
 
 5.   Si vous préférez utiliser la console, suivez le guide d'appariage de manette sur Linux : [approxeng.input Bluetooth pairing guide.](https://approxeng.github.io/approxeng.input/bluetooth.html)
 6.   Mapper les touches de la manette
@@ -31,12 +32,12 @@ Pour vous assurer que chaque touche (comme le triangle) est correctement mappée
 *   Une fois le mappage terminé, un fichier de configuration sera généré. Déplacez ce fichier dans le dossier ~/.approxeng.input/ en utilisant la commande suivante :
    ```bash
    mv <fichier_de_configuration> ~/.approxeng.input/
-
+   ```
 
 *   Ensuite, dans la console, exécutez la commande suivante pour tester le fonctionnement des axes et des boutons :
    ```bash
    approxeng_input_show_controls
-
+   ```
 
 Cela vous permettra de bouger les axes et appuyer sur les boutons pour vérifier que les touches sont correctement mappées.
 
